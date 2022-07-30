@@ -1,0 +1,172 @@
+* {
+    font-family: "Poppins";
+    /* border: 1px solid red; */
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.primary {
+    background-color: #150544 !important;
+}
+
+.active {
+    color: #150544;
+    font-weight: 500;
+}
+
+.logo a{
+    user-select: none;
+}
+
+.text-primary {
+    color: #150544 !important;
+}
+
+nav {
+    padding: 40px 90px;
+}
+
+nav a {
+    color: #5A6772;
+    margin-right: 43px;
+}
+
+.links{
+    height: 50px;
+}
+
+.btn-navbar {
+    /* background-color: #150544; */
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+}
+
+.btn-navbar:hover {
+    color: #ffffff;
+    outline: none;
+}
+
+main {
+    margin: 100px 0 0 0;
+}
+
+main .union {
+    z-index: -1;
+    transform: scale(1) rotate();
+    width: 100%;
+}
+
+main p {
+    font-size: 18px;
+}
+
+.features img {
+    border-radius: 26px;
+    background-color: #614EF5;
+}
+
+.feat-title {
+    font-weight: 500;
+}
+
+.packages {
+    margin: 150px 0 0 0;
+}
+
+.btn-pkg {
+    color: #ffffff;
+    height: 50px;
+}
+
+.trial {
+    background-color: #6552FF;
+    color: #ffffff;
+}
+
+.offer {
+    background-color: #150544;
+    color: #ffffff;
+}
+
+.pkg-offer,
+.pkg-trial {
+    width: 320px;
+    border-radius: 11px;
+}
+
+.pkg-trial {
+    border: 2px solid transparent;
+}
+
+.trial-desc li, .offer-desc li {
+    font-weight: 500;
+}
+
+.trial-desc li::before {
+    content: url('./assets/001-check.svg');
+    margin-right: 14px;
+}
+
+.pkg-offer {
+    border: 2px solid #160647;
+    background-color: #150544;
+}
+
+.offer-desc li::before {
+    content: url('./assets/001-check\ 2.svg');
+    margin-right: 14px;
+}
+
+.pkg-top {
+    background-color: #150544;
+    height: 50px;
+    width: 100%;
+    color: #ffffff;
+    border-radius: 11px 11px 0 0;
+    font-weight: 500;
+}
+
+.pkg-bottom {
+    border-radius: 9px;
+}
+
+.pre-footer,
+.pre-footer a {
+    color: #150544;
+}
+
+.pre-footer .bg {
+    background-color: #E7F6FF;
+    top: 1360px;
+    height: 567px;
+    z-index: -1000;
+}
+
+footer {
+    background: url('/assets/Union-1.png') no-repeat -1px 20px;
+    padding: 120px 0;
+    height: 576px;
+}
+
+footer p{
+    font-size: 36px;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+footer .text-underline{
+    text-decoration: underline;
+    text-decoration-color: #6552FF !important;
+}
+
+footer .footer-name{
+    font-weight: 500;
+}
+
+footer .footer-quote{
+   /* position: absolute; */
+   margin-top: -35px;
+}
