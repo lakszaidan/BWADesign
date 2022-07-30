@@ -106,7 +106,7 @@ main p {
 }
 
 .trial-desc li::before {
-    content: url('./assets/001-check.svg');
+    content: url('/assets/001-check.svg');
     margin-right: 14px;
 }
 
@@ -116,7 +116,7 @@ main p {
 }
 
 .offer-desc li::before {
-    content: url('./assets/001-check\ 2.svg');
+    content: url('/assets/001-check\ 2.svg');
     margin-right: 14px;
 }
 
@@ -140,9 +140,9 @@ main p {
 
 .pre-footer .bg {
     background-color: #E7F6FF;
-    top: 1360px;
+    top: 1390px;
     height: 567px;
-    z-index: -1000;
+    z-index: -1;
 }
 
 footer {
