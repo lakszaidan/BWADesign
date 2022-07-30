@@ -146,7 +146,7 @@ main p {
 }
 
 footer {
-    background: url('/assets/Union-1.png') no-repeat -1px 20px;
+    background: url('./assets/Union-1.png') no-repeat -1px 20px;
     padding: 120px 0;
     height: 576px;
 }
